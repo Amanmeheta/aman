@@ -1,0 +1,7 @@
+Steps 1:To create the image Amanmeheta/aman, execute the following command on the Amanmeheta/aman folderdocker build -t Amanmeheta/aman  .
+Steps 2:
+You can now push your new image to the registry:docker push Amanmeheta/aman 
+Steps 3:
+Start your image:docker run -d -p 80:80 Amanmeheta/aman
+Steps 4:
+Test your deployment:curl http://localhost/
