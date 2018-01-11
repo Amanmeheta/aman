@@ -1,0 +1,4 @@
+aman: 
+   image: Amanmeheta/aman 
+   ports: 
+     - 80:80
